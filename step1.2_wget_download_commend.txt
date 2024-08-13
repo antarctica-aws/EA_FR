@@ -1,0 +1,15 @@
+wget --http-user=mliang77@terpmail.umd.edu --http-password=Amber2020* --load-cookies ~/.urs_cookies --save-cookies ~/.urs_cookies --keep-session-cookies -nc -i /gpfs/data1/duncansongp/amberliang/EA_data/testtile171063_l4a_granules_2019-2022.txt -P /gpfs/data1/duncansongp/amberliang/EA_data/l4a_orig/shinyanga
+
+
+wget --http-user=mliang77@terpmail.umd.edu --http-password=Amber2020* --load-cookies ~/.urs_cookies --save-cookies ~/.urs_cookies --keep-session-cookies -nc -i /gpfs/data1/duncansongp/amberliang/EA_data/TISTKEN_GEDI02_A_002_GranuleList_20231207002514_v2.txt -P /gpfs/data1/duncansongp/amberliang/EA_data/l2a_orig/TISTKEN
+
+module load python/3.7/anaconda
+module load wget/1.21.1
+source activate ea_work 
+cd /gpfs/data1/duncansongp/amberliang/EA_data/
+
+
+
+wget --http-user=mliang77@terpmail.umd.edu --http-password=Amber2020* --load-cookies ~/.urs_cookies --save-cookies ~/.urs_cookies --keep-session-cookies -nc -i /gpfs/data1/duncansongp/amberliang/EA_data/shinyanga2_GEDI02_B_002_GranuleList_20231215004026_v2 -P /gpfs/data1/duncansongp/amberliang/EA_data/l2b_orig/shinyanga
+
+

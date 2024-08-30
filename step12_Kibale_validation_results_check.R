@@ -20,8 +20,8 @@ agbdOut <- read.csv(paste('agbd_predictions/kibale_ts_out2/',csvname, '.csv', se
 #'agbd_predictions/kibale_ts_out/pred_icc_agbd_all_plots_years_val_EF2_2sig_no5_628_coarse_bilinear.csv')
 #pred_icc_agbd_all_plots_years_val_EF2_2sig_no5_628_coarse_bilinear.csv')
 #read.csv('agbd_predictions/kibale_ts_out/pred_agbd_all_plots_years_val_default_2sig.csv')
-agbdOld <- read.csv(
-  'agbd_predictions/kibale_ts_out/pred_icc_agbd_all_plots_years_val_EF2_2sig_no5_628_coarse_bilinear.csv')
+# agbdOld <- read.csv(
+#   'agbd_predictions/kibale_ts_out/pred_icc_agbd_all_plots_years_val_EF2_2sig_no5_628_coarse_bilinear.csv')
 
 
 

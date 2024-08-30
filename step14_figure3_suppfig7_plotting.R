@@ -37,7 +37,7 @@ print(length(rateMap2_res[])- sum(is.na(rateMap2_res[])))
 
 
 
-#####-----------------version 2: Griscom et al 2017 map only [choosen because match with Cook-Patton]-----------------######
+#####---------------[used]version 2: Griscom et al 2017 map only [choosen because match with Cook-Patton]-----------------######
 
 rateMap2 <- raster('NCS_Refor11_map_with_description_zip/cookpatton_griscom_reprj.tif')
 
@@ -69,7 +69,7 @@ print(length(rateMap2_res[])- sum(is.na(rateMap2_res[])))
 
 
 
-##------------------do the same for the error ratio map--------------------------
+##------------------[used]do the same for the error ratio map--------------------------
 
 rateMap3 <- raster('NCS_Refor11_map_with_description_zip/cookpattonER_griscom_reprj.tif')
 
